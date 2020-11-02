@@ -1,0 +1,2 @@
+# DBS211
+All the labs of DBS211 SQL SENECA FALL TERM 2020
