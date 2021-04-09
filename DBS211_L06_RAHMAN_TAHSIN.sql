@@ -1,5 +1,5 @@
 /* Name: Tahsin Rahman
-Student ID: 165063199
+Student ID: 
 Date: November 7, 2020
 DBS211 - Lab 06 
 */
@@ -87,7 +87,7 @@ COMMIT;
 
 ROLLBACK;
 
-/*10a. Display all employees from the newEmployees table whose job title is ‘unknown’. How many
+/*10a. Display all employees from the newEmployees table whose job title is â€˜unknownâ€™. How many
 rows are still updated?*/
 
 SELECT jobtitle
@@ -194,7 +194,7 @@ GRANT INSERT, UPDATE, DELETE ON newEmployees TO dbs211_203a01;
 
 REVOKE ALL ON newEmployees FROM dbs211_203a01;
 
-/*Part C – Clean up*/
+/*Part C â€“ Clean up*/
 
 /*23. Write statements to permanently remove the view and table created for this lab*/
 
