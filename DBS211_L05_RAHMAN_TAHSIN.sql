@@ -1,5 +1,5 @@
 /* Name: Tahsin Rahman
-Student ID: 165063199
+Student ID: 
 Date: October 14, 2020
 DBS211 - Lab 05 
 */
@@ -125,7 +125,7 @@ UPDATE employee2 SET firstname = 'Tahsin', lastname = 'Rahman'
 	WHERE employeeNumber = 1002;
 
 /*Question 11*/
---In table employee2, generate the email address for column username for each student by concatenating the first character of employee’s first name and the employee’s last name. 
+--In table employee2, generate the email address for column username for each student by concatenating the first character of employeeâ€™s first name and the employeeâ€™s last name. 
 --For instance, the username of employee Peter Stone will be pstone. NOTE: the username is in all lower case letters. 
 
 UPDATE employee2 SET username = lower(concat(substr(firstname, 1, 1), lastname));
